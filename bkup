@@ -1,0 +1,22 @@
+<div class="category" id="software-dev">
+    <h2>Web Development</h2>
+    <div class="project-list">
+        <!-- Individual software development project entries -->
+        <article>
+            <h3>Project Title 2</h3>
+            <p>Project description goes here...</p>
+        </article>
+        <!-- Additional software projects -->
+    </div>
+</div>
+<div class="category" id="ai-projects">
+    <h2>Artificial Intelligence</h2>
+    <div class="project-list">
+        <!-- Individual AI project entries -->
+        <article>
+            <h3>Project Title 3</h3>
+            <p>Project description goes here...</p>
+        </article>
+        <!-- Additional AI projects -->
+    </div>
+</div>

@@ -1,0 +1,146 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    align-items: center;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0%;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 50px;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #333;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    align-self: center;
+}
+
+/* Styles for the About section */
+#about {
+    background-color: #fff;
+    padding-top: 60px; /* Offset for the fixed header */
+    text-align: center;
+}
+
+#projects {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-top: 0%;
+    text-align: center;
+}
+
+/* Styles for the Projects section */
+#projects article {
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#projects img {
+    width: 100%;
+    max-width: 300px; /* Adjust based on your layout needs */
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#projects iframe {
+    width: 100%;
+    max-width: 420px; /* Width of the YouTube video */
+    height: 240px;
+    margin-bottom: 20px;
+    align-self: center;
+    
+}
+
+/* Styles for the Contact section */
+#contact {
+    background-color: #fff;
+    padding-top: 60px; /* Offset for the fixed header */
+}
+
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #333; /* Or any color that fits your design */
+    font-size: 24px; /* Adjust the size as needed */
+}
+
+.social-links a:hover {
+    color: #0056b3; /* Highlight color when mouse hovers over the icon */
+}
+
+.category {
+    margin-bottom: 40px;
+}
+
+.category h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.project-list article {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project-list h3 {
+    font-size: 20px;
+    color: #0056b3;
+}
+
+.project-list p {
+    font-size: 16px;
+    color: #666;
+}
